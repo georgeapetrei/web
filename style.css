@@ -1,0 +1,277 @@
+body {
+margin: 0px;
+font-family: Montserrat;
+}
+
+
+#navBar {
+    border-top: 5px solid #efefef;
+    border-bottom: 1px solid #efefef;
+    height: 85px;
+    width: 100%;
+    text-align:center;
+    
+    
+    
+}
+
+#logo {
+    float: left;
+    width: 150px;
+    height: 85px;
+    background-image: url(images/logo.png);
+    background-repeat: no-repeat;
+    margin-left: 180px;
+    margin-top: 15px;
+    
+    
+}
+
+
+#nav {
+    display: inline-block;
+    margin: 0px auto;
+    width: 570px;
+    height: 85px;
+    padding-left: 45px;
+    
+    
+}
+
+#nav ul {
+    
+   
+    
+}
+
+#nav ul li {
+    display: inline;
+    text-decoration: none;
+    float: left;
+    height: 85px;
+    margin-top: 15px;
+}
+
+#nav ul li a {
+    text-decoration: none;
+    padding: 0 35px;
+    font-size: 14px;
+    color:#191e63;
+    font-weight: 400;
+}
+
+#nav ul #selected {
+    height: 7px;
+   background-color:#d70e47;
+    margin-top: 33px;
+    
+}
+
+#logIn {
+    float:right;
+    height: 35px;
+    width: 350px;
+    margin-right: 130px;
+    
+}
+
+#logIn ul {
+   margin-top: 30px;
+    
+    height: 20px;
+}
+
+#logIn ul li {
+    display: inline;
+    
+    
+}
+
+#logIn ul li a {
+    text-align: center;
+    text-decoration: none;
+    padding: 14px 24px;
+    font-size: 14px;
+    color:#191e63;
+    font-weight: 400;
+    
+    height: 25px;
+}
+
+#logIn ul li a img {
+   vertical-align: text-top;
+    padding: 0px 10px;
+}
+
+.mainBanner {
+    height: 500px;
+    background-image: url(images/mainBanner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 1px solid white;
+}
+
+.mainBanner .firstDescriptor {
+    font-family: "Libre Baskerville",Georgia,"Times New Roman",Times,serif;
+    font-style: italic;
+    font-weight: 300;
+    color: #494747;
+    margin-top: 80px;
+    margin-left: 180px;
+    margin-bottom: -15px;
+    font-size: 21px;
+}
+
+.mainBanner .firstLine {
+    width: 590px;
+    padding-left: 20px;    
+    margin-left: 163px;
+    background-color: white;
+    color: #1f1f1f;
+}
+
+.mainBanner .secondLine {
+    margin-left: 163px;
+    background-color: white;
+    width: 400px;
+    padding-left: 20px; 
+    margin-top:-23px;
+    color: #1f1f1f;
+}
+
+.mainBanner .secondDescriptor {
+    margin-left: 180px;
+    font-size: 14pt;
+    font-weight: 400;
+    margin-top: -17px;
+    color: #1f1f1f;
+}
+
+.mainBanner .firstLine h1 {
+    font-size: 48px;
+    line-height:150%;
+}
+
+.mainBanner .secondLine h1 {
+    font-size: 48px;
+}
+
+.mainBanner .firstLine .secondLine {
+    margin-left: -25px;
+}
+
+.mainBanner .loadingBar {
+    height: 2px;
+    width: 570px;
+    background-color: #d70e47;
+    margin-left: 180px;
+    margin-top: -10px;
+}
+
+.callAction {
+    font-size: 10pt;
+    display: inline;
+    height: 55px;
+    width: 250px;
+    
+   
+    
+}
+
+.callAction .findOutMore {
+    margin-left: 180px;
+   
+   
+}
+
+.callAction .findOutMore a {
+    text-decoration: none;
+    color: #191e63;
+     padding: 18px 43px;
+    float: left;
+    border: 2px solid #12175e;
+    margin-top: 50px;
+}
+
+.callAction .freeDemo {
+   margin-left: 35px;
+    
+}
+
+.callAction .freeDemo a {
+    text-decoration: none;
+    color: #d70e47;
+    float: left;
+    padding: 18px 43px;
+    border: 2px solid #d70e47;
+    margin-top: 50px;
+    margin-left: 35px;
+}
+
+.socialMedia {
+    float: right;
+}
+
+.socialMedia ul {
+    margin-right: 90px;
+   margin-top: 110px;
+   
+}
+
+.socialMedia ul li {
+    display: inline;
+}
+
+.socialMedia ul li a {
+   padding-left: 5px;
+}
+
+#sliderNav {
+    margin: 0 180px;
+    margin-top: 20px;
+    height: 75px;
+   
+    
+}
+
+#sliderNav ul li {
+    display: inline;
+    margin-left: -38px;
+    
+    
+}
+
+#sliderNav ul li a {
+    text-decoration: none;
+    padding: 0 100px 0 0;
+    font-size: 15px;
+    font-weight: 400;
+    color: #a1a1a1;
+    
+    
+}
+
+#sliderNav .sliderLoadingBar {
+    height: 8px;
+    background-color: #a1a1a1;
+    margin-top: 20px;
+}
+
+#sliderNav .sliderLoadingBar .sliderActiveBar {
+    width: 365px;
+    background-color: #12175e;
+     height: 8px;
+
+}
+
+#sliderNav .sliderLoadingBar .sliderInactiveBar {
+     
+}
+
+ .activeArea {
+    color: #12175e;
+}
+
+
+
+
